@@ -1,8 +1,9 @@
 <?php
-    // DB credentials.
-    define('DB_HOST', 'localhost');
-    define('DB_USER','root');
-    define('DB_PASS','');
+    /* Database credentials. Assuming you are running MySQL
+    server with default setting (user 'root' with no password) */
+    define('DB_SERVER', 'localhost');
+    define('DB_USERNAME', 'root');
+    define('DB_PASSWORD', '');
     define('DB_NAME','user_taming');
     // Establish database connection.
     /* Attempt to connect to MySQL database */
